@@ -24,6 +24,9 @@ struct Net_config
 class YOLO
 {
 	public:
+		YOLO(Net_config config);
+		void detect(Mat& frame);
+	private:
 		float confThreshold;
 		float nmsThreshold;
 		int inpWidth;
@@ -31,10 +34,9 @@ class YOLO
 		char netname[20];
 		vector<string> classes;
 		Net net;
-		YOLO(Net_config config);
+	
 		void postprocess(Mat& frame, const vector<Mat>& outs);
 		void drawPred(int classId, float conf, int left, int top, int right, int bottom, Mat& frame);
-		void detect(Mat& frame);
 };
 
 Net_config yolo_nets[4] = {
