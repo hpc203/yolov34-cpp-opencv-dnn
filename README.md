@@ -1,4 +1,4 @@
-# 4种YOLO目标检测的C++实现
+# 4种YOLO目标检测的C++和Python两种版本的实现
 本程序包含了经典的YOLOv3，YOLOv4，Yolo-Fastest和YOLObile这4种YOLO目标检测的实现，
 这4种yolo的.cfg和.weights文件，从百度云盘里下载
 
