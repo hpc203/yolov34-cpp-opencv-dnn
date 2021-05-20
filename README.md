@@ -6,4 +6,4 @@
 提取码：8kya 
 
 下载完成后把下载得到的4个文件夹拷贝到和main_yolo.cpp同一目录下，
-只要安装了opencv4.4.0，就可以在windows和linux系统编译并运行main_yolo.cpp
+只要安装了opencv4.4.0及其以上版本的，就可以在windows和linux系统编译并运行main_yolo.cpp
